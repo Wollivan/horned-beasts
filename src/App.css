@@ -1,12 +1,33 @@
+body {
+  margin: 0;
+  background-color: teal;
+  color: white;
+  font-family: monospace;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
-  max-width: 80%;
+  max-width: 75%;
 }
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .horned-beast {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

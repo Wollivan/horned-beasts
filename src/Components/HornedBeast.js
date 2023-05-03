@@ -12,7 +12,7 @@ function HornedBeast(props) {
       <h2>{props.title}</h2>
       <img src={props.imageUrl} alt={props.title} />
       <p>{props.description}</p>
-      <p onClick={handleClick}>❤️: {votes}</p>
+      <p onClick={handleClick}>❤️ {votes}</p>
     </div>
   );
 }
